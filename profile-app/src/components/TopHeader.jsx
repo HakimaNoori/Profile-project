@@ -1,12 +1,12 @@
-import React from 'react'
 
-const TopHeader = () => {
+import image from '../assets/user.jpg'
+const TopHeader = ({ name, username, userImage }) => {
   return (
     <header className='topHeader'>
         <div className="topHeaderInner">
             <div className="avatarRing">
                 <div className="avatarCircle avatarImageApper">
-                    <img src={avatarImage} alt={name} className='avatar1' />
+                    <img src={image} className='avatarRing' />
                 </div>
             </div>
             <div className="topHeaderContent">

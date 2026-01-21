@@ -1,7 +1,7 @@
 import React from 'react'
 import Row from './Row'
 
-const PersonalCard = ({info}) => {
+const PersonalInfoCard = ({info}) => {
   return (
     <div className='card infoCard'>
       <h2 className='cardTitle'>Personal Information</h2>
@@ -16,4 +16,4 @@ const PersonalCard = ({info}) => {
   )
 }
 
-export default PersonalCard
+export default PersonalInfoCard
