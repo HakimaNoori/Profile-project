@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
- import userImage from './assets/user.JPG'
+import userImage from './assets/user.jpg'
 import ProfilePage from './components/profilePage'
 
 const App = () => {
